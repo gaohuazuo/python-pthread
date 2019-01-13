@@ -4,9 +4,8 @@
 #include "pthread.h"
 %}
 
-#define __attribute__(x)
-#define __inline
-#define __restrict
-#define __extension__
+%include "swig_helper.i";
+
+%rename("$ignore", regextarget=1) "^_";
 
 %include "expanded.h";

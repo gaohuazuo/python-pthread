@@ -1,4 +1,4 @@
-#include "swig_helper.h"
+#include "swig_helper.h.h"
 
 ECHO(#define SWIG_INCLUDE_LEVEL 1)
 
